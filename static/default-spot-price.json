@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "copyright": "Copyright 2019 Amazon.com, Inc. or its affiliates. All rights reserved.",
+    "disclaimer": "This file is intended for use only on aws.amazon.com. We do not guarantee its availability or accuracy.",
+    "format:version": "1.0",
+    "source:version": "20190730194642"
+  },
+  "prices": [
+    {
+      "id": "fcf0631b-1908-4cf2-8efc-ca97c2933a57",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01255112"
+      },
+      "attributes": {
+        "aws:region": "us-east-2",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "b3dd7fe9-2c24-4bf8-8446-fc698cef1401",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00137821"
+      },
+      "attributes": {
+        "aws:region": "us-east-2",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "e8dab5f4-b87f-4ed5-8f30-5d6efa72ad61",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.013368"
+      },
+      "attributes": {
+        "aws:region": "ca-central-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "daffe395-0783-43f4-b61f-23005fc62e07",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.0014595"
+      },
+      "attributes": {
+        "aws:region": "ca-central-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "c2ce561a-573c-4bcb-974b-40e06622d2e5",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01279939"
+      },
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "43c63dab-d961-4787-bb63-87692bc363d2",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00140547"
+      },
+      "attributes": {
+        "aws:region": "us-west-2",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "130747cf-71c0-4d84-86cd-f14950ee966e",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.012144"
+      },
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "fa18510b-a65a-4d90-a279-8e39ab3fa745",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.0013335"
+      },
+      "attributes": {
+        "aws:region": "eu-west-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "686cf132-cd42-49c8-a5fa-ed563500a489",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.013968"
+      },
+      "attributes": {
+        "aws:region": "eu-central-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "5e3c2da2-5e99-4d9d-938e-bbcaec1ac2c5",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.001533"
+      },
+      "attributes": {
+        "aws:region": "eu-central-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "bafc9950-ceca-49ea-9642-9843fa7a4bdc",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01335"
+      },
+      "attributes": {
+        "aws:region": "eu-north-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "878c2283-27b9-41c2-9f63-3b6f7752167c",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00147"
+      },
+      "attributes": {
+        "aws:region": "eu-north-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "878b1e27-b82f-493c-abc2-5ae0288df414",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01613649"
+      },
+      "attributes": {
+        "aws:region": "ap-northeast-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "7d801cb5-d09c-43b3-92a0-0ac89113fe33",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00176493"
+      },
+      "attributes": {
+        "aws:region": "ap-northeast-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "428e232f-11ce-423b-87a4-565f6deb3b46",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01543465"
+      },
+      "attributes": {
+        "aws:region": "us-gov-east-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "4ac7c58d-084f-4ca2-ac23-a09e42621626",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.0016832"
+      },
+      "attributes": {
+        "aws:region": "us-gov-east-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "91d69c32-3a4f-4e86-9b27-2f89ffc1a987",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01416614"
+      },
+      "attributes": {
+        "aws:region": "eu-west-2",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "85aac3ff-56ca-4fd0-b997-7eb431612dd2",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00155475"
+      },
+      "attributes": {
+        "aws:region": "eu-west-2",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "cfca8f18-8e32-4d16-a309-213273878951",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01668"
+      },
+      "attributes": {
+        "aws:region": "ap-east-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "bf4ff62f-b201-4af8-849e-3bee06a51b19",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00183"
+      },
+      "attributes": {
+        "aws:region": "ap-east-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "fb009e08-17c1-4fdc-a6b0-359f66c1ff1c",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01458"
+      },
+      "attributes": {
+        "aws:region": "us-gov-west-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "95c5b88c-1c85-4457-9fab-ea5ca4102618",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00159"
+      },
+      "attributes": {
+        "aws:region": "us-gov-west-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "9aa5f913-8001-445a-aa7e-81aaf0a1b492",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01458"
+      },
+      "attributes": {
+        "aws:region": "eu-west-3",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "72d40f7a-af13-4ef8-a7a2-126741070f61",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00159"
+      },
+      "attributes": {
+        "aws:region": "eu-west-3",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "ece8a60c-d15c-4e17-9dda-d0e7fda79903",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01424123"
+      },
+      "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "ca08ac32-9d3a-4814-9051-8e0e56f67f93",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00156299"
+      },
+      "attributes": {
+        "aws:region": "ap-northeast-2",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "a1ad49f6-1d8a-4cb3-a5ca-36426d724c6e",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.015168"
+      },
+      "attributes": {
+        "aws:region": "ap-southeast-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "1bce191b-9e19-4ffc-af2d-021c80d456a0",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.001659"
+      },
+      "attributes": {
+        "aws:region": "ap-southeast-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "259bdf83-0b1b-4491-9eae-f58363c78a9e",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.014568"
+      },
+      "attributes": {
+        "aws:region": "ap-southeast-2",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "7b5c4957-b319-444c-bb45-b024f527e19e",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.001596"
+      },
+      "attributes": {
+        "aws:region": "ap-southeast-2",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "93c624d6-f736-47a5-a563-4d90e1236336",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.012423"
+      },
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "0505d1bb-0e04-4efe-83b2-b5e69945a6ed",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00136414"
+      },
+      "attributes": {
+        "aws:region": "us-east-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "94fdc57a-e84d-4e15-b512-8d5b7d1c1ce9",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.02143433"
+      },
+      "attributes": {
+        "aws:region": "sa-east-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "c271ff52-20d4-467d-b73b-4f94e89ab94a",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00234053"
+      },
+      "attributes": {
+        "aws:region": "sa-east-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "3f4c6135-236c-45dd-8944-90715ab2261f",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.013968"
+      },
+      "attributes": {
+        "aws:region": "us-west-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "d6fb343b-8fa0-427f-8126-8bf2e62a342f",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.001533"
+      },
+      "attributes": {
+        "aws:region": "us-west-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "1aa7fa45-c558-4b6d-b5b6-536667f36ec5",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.012768"
+      },
+      "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "d8869fb0-0548-439f-a05d-270d8ddfc6b9",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.0013965"
+      },
+      "attributes": {
+        "aws:region": "ap-south-1",
+        "aws:label": "per GB per hour"
+      }
+    },
+    {
+      "id": "34636c9e-b015-4c7f-81a1-22d44d3c141d",
+      "unit": "vCPU-Hours",
+      "price": {
+        "USD": "0.01578"
+      },
+      "attributes": {
+        "aws:region": "me-south-1",
+        "aws:label": "per vCPU per hour"
+      }
+    },
+    {
+      "id": "cec62d9e-7f76-4576-8d21-5e6f693cb647",
+      "unit": "GB-Hours",
+      "price": {
+        "USD": "0.00174"
+      },
+      "attributes": {
+        "aws:region": "me-south-1",
+        "aws:label": "per GB per hour"
+      }
+    }
+  ]
+}
