@@ -6,7 +6,7 @@ Help with calculating Fargate cost.
 
 ## Explore
 
-See it in action -> https://hemandee.github.com/fargate-calculator
+See it in action -> https://hemandee.github.io/fargate-calculator
 
 ## Build Setup
 

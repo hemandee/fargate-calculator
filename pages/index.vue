@@ -83,6 +83,40 @@
             </v-col>
           </v-row>
         </v-form>
+        <div v-if="selectRegion !== 'null'">
+          <v-row>
+            <v-col>
+              <h3>
+                On-Demand
+              </h3>
+              <p>
+                vCPU:
+                {{ pricingStruct.products[this.selectRegion].vcpu }} per vCPU
+                per hour
+              </p>
+              <p>
+                Memory:
+                {{ pricingStruct.products[this.selectRegion].memory }} per GB
+                per hour
+              </p>
+            </v-col>
+            <v-col
+              ><h3>
+                Spot
+              </h3>
+              <p>
+                vCPU:
+                {{ pricingStructSpot.products[this.selectRegion].vcpu }} per
+                vCPU per hour
+              </p>
+              <p>
+                Memory:
+                {{ pricingStructSpot.products[this.selectRegion].memory }} per
+                GB per hour
+              </p>
+            </v-col>
+          </v-row>
+        </div>
       </v-container>
       <v-card v-if="fargateTable.length > 0">
         <v-card-title>
