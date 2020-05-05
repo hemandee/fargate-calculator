@@ -187,9 +187,7 @@
                 <th>{{ totalVal.vcpu }}</th>
                 <th>{{ totalVal.memory }}</th>
                 <th>{{ totalVal.region }}</th>
-                <th>
-                  {{ totalVal.hourly }}
-                </th>
+                <th></th>
                 <th>
                   {{
                     Math.round((totalVal.daily + Number.EPSILON) * 1000) / 1000
@@ -285,9 +283,7 @@
                 <th>{{ totalValSpot.vcpu }}</th>
                 <th>{{ totalValSpot.memory }}</th>
                 <th>{{ totalValSpot.region }}</th>
-                <th>
-                  {{ totalValSpot.hourly }}
-                </th>
+                <th></th>
                 <th>
                   {{
                     Math.round((totalValSpot.daily + Number.EPSILON) * 1000) /
@@ -448,7 +444,6 @@ export default {
         }
       })
     this.calcTotal(this.fargateTable)
-    console.log(this.pricingStruct)
     // this.vcpuRules(this.vcpu)
     // this.taskRules(this.tasks)
     // this.memoryRules(this.memory)
@@ -504,7 +499,10 @@ export default {
         .get(spotPriceUrl)
         .catch((error) => {
           // eslint-disable-next-line no-console
-          console.log('Failed to retrieve AWS Spot List from Document', error)
+          console.log(
+            'Failed to retrieve AWS Spot List from Document use Default Spot Price List',
+            error
+          )
           // this.msg = 'Failed to retrieve AWS Spot List from Document'
           // this.msgColor = 'red'
           // this.msgVis = true
