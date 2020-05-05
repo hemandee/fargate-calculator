@@ -8,6 +8,14 @@ const routerBase =
         }
       }
     : {}
+const faviconLoc =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/fargate-calculator/favicon.ico'
+      }
+    : { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
 
 export default {
   ...routerBase,
@@ -27,7 +35,7 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [faviconLoc]
   },
   /*
    ** Customize the progress-bar color
