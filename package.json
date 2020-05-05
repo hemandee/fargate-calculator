@@ -1,7 +1,7 @@
 {
   "name": "fargate-calculator",
   "version": "1.0.0",
-  "description": "Fargate Calculator for Cost",
+  "description": "Easy Fargate Price Calculator",
   "author": "hemandee",
   "private": true,
   "scripts": {
